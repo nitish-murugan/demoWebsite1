@@ -8,5 +8,6 @@ export default defineConfig({
   server: {
     host: '0.0.0.0', // Allows external access
     port: 5173, // Uses the environment port or defaults to 5173
+    allowedHosts: ['demowebsite1.onrender.com/'],
   }
 });
